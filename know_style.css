@@ -80,7 +80,7 @@
       box-shadow:0 0.5rem 1rem #8fe36f;
     }
      .hero1 {
-      height: 50vh;
+      height: 70vh;
       width: 85vw;
       display: flex;
       align-items: center;
@@ -262,6 +262,11 @@
         width: 6rem;
       }   
     }
+@media (max-width:400px){
+    .hero1{
+        flex-direction: column;
+      }
+  }
 
     @media (max-width:340px){
       .logo{
