@@ -6,7 +6,7 @@
       font-family: 'Roboto', sans-serif;
     }
     body {
-      background-image: url(/images/background_img.jpg);
+      background-image: url(../images/background_img.jpg);
       /* background-image: linear-gradient(to left,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(/images/background_img.jpg); */
       background-repeat:no-repeat;
       background-attachment:fixed;
@@ -420,4 +420,5 @@
        .form{
         width: 18rem;
       }
+
     }
